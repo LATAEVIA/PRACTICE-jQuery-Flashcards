@@ -1,0 +1,24 @@
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.revert-colors
+{
+  background-color: inherit;
+}
+
+.add-border
+{
+  border: 1px solid #222;
+}
+#blue-text-border {
+  margin-top: 30px;
+}
