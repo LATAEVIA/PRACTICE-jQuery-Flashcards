@@ -1,4 +1,11 @@
-// $(document).ready(function() {
+$(document).ready(function() {
+  $(".panel").click(function() {
+    $(".backside").removeClass("hiding");
+    $(".frontside").addClass("hiding");
+    $(".backside").toggle("hiding");
+    $(".frontside").toggle("hiding");
+  });
+});
 //   $("button#green").click(function() {
 //     $("body").removeClass();
 //     $("body").addClass("green-background");
@@ -21,4 +28,3 @@
 //     // $("body").removeClass();
 //     $("#blue-text-border").addClass("add-border");
 //   });
-// });
