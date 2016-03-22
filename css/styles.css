@@ -1,10 +1,13 @@
 .hiding {
   display: none;
 }
-$(document).ready(function() {
+.panel-body {
+  display: none;
+}
+/*$(document).ready(function() {
   $(".panel").click(function() {
     $(".panel-body", this).removeClass("hiding");
     $(".panel-body", this).addClass("hiding");
     $(".panel-body", this).toggle("hiding");
   });
-});
+});*/

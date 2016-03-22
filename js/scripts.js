@@ -1,9 +1,9 @@
 $(document).ready(function() {
+  // $(".container").load(function() {
+  //   $(".panel-body").hide();
+  // });
   $(".panel").click(function() {
-    $(".backside").removeClass("hiding");
-    $(".frontside").addClass("hiding");
-    $(".backside").toggle("hiding");
-    $(".frontside").toggle("hiding");
+    $(".panel-body", this).toggle("hiding");
   });
 });
 //   $("button#green").click(function() {
