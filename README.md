@@ -19,7 +19,7 @@ _Webpage will allows users to click on a term or concept to see the definition a
 
 * _HTML_
 * _CSS_
-
+* _Samuel L. Jackson Lorium Ipsom (slipsom)_
 ### License
 
 *This software is licensed under the MIT license*
